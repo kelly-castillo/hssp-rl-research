@@ -16,8 +16,8 @@ These projects use [CleanRL](https://github.com/vwxyzjn/cleanrl) as a foundation
 ## Setup
 ```bash
 pip install cleanrl gymnasium torch streamlit matplotlib numpy pandas
-pip install safety-gymnasium  # for ppo_safe.py
-pip install ipywidgets         # for ppo_safe.py Jupyter dashboard
+pip install safety-gymnasium # for ppo_safe.py
+pip install ipywidgets # for ppo_safe.py Jupyter dashboard
 ```
 
 ## Running the Streamlit Apps
