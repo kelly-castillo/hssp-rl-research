@@ -15,5 +15,22 @@ These projects use [CleanRL](https://github.com/vwxyzjn/cleanrl) as a foundation
 
 ## Setup
 ```bash
-pip install cleanrl gymnasium torch
+pip install cleanrl gymnasium torch streamlit matplotlib numpy pandas
+pip install safety-gymnasium  # for ppo_safe.py
+pip install ipywidgets         # for ppo_safe.py Jupyter dashboard
+```
+
+## Running the Streamlit Apps
+```bash
+streamlit run hyperparameter_sandbox_demo.py
+streamlit run curriculum_wrapper.py
+streamlit run rl_exploration.py
+streamlit run multiagent_ppo.py
+```
+
+## Running the Safety RL Demo
+
+Open `ppo_safe.py` in Jupyter Notebook to use the interactive dashboard, or run it from the command line:
+```bash
+python ppo_safe.py
 ```
