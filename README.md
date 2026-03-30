@@ -1,6 +1,8 @@
 # HSSP Reinforcement Learning Research
 
-Reinforcement learning experiments built during the Hokie Summer Scholars Program at Virginia Tech.
+This repo contains a collection of reinforcement learning demos I built during the Hokie Summer Scholars Program at Virginia Tech. It covers core RL concepts through interactive, runnable experiments from basic PPO and multi-agent training to curriculum learning, exploration strategies, and safe RL with constrained policy optimization.
+
+The repo is designed to be beginner-accessible: clone it, install dependencies, and run any of the Streamlit apps or scripts directly. No prior RL experience needed — the interactive dashboards let you tweak hyperparameters and watch agents learn in real time.
 
 These projects use [CleanRL](https://github.com/vwxyzjn/cleanrl) as a foundation — a high-quality single-file RL library. CleanRL is not my work; credit goes to Huang et al. (2022). See their [paper](http://jmlr.org/papers/v23/21-1342.html) and [repo](https://github.com/vwxyzjn/cleanrl).
 
