@@ -14,6 +14,20 @@ These projects use [CleanRL](https://github.com/vwxyzjn/cleanrl) as a foundation
 - **predator_prey_demo.gif** - Visualization of predator-prey environment
 
 ## Setup
+
+Clone the repo: 
+```bash
+git clone https://github.com/kelly-castillo/hssp-rl-research.git
+cd hssp-rl-research
+```
+
+Create and activate a conda env:
+```bash
+conda create -yn hssp-rl python=3.10
+conda activate hssp-rl
+```
+
+Install dependencies:
 ```bash
 pip install cleanrl gymnasium torch streamlit matplotlib numpy pandas
 pip install safety-gymnasium # for ppo_safe.py
@@ -22,10 +36,11 @@ pip install ipywidgets # for ppo_safe.py Jupyter dashboard
 
 ## Running the Streamlit Apps
 ```bash
-streamlit run hyperparameter_sandbox_demo.py
-streamlit run curriculum_wrapper.py
-streamlit run rl_exploration.py
-streamlit run multiagent_ppo.py
+cd cleanrl
+streamlit run cleanrl/hyperparameter_sandbox_demo.py
+streamlit run cleanrl/curriculum_wrapper.py
+streamlit run cleanrl/rl_exploration.py
+streamlit run cleanrl/multiagent_ppo.py
 ```
 
 ## Running the Safety RL Demo
