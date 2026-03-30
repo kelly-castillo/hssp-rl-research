@@ -38,7 +38,6 @@ pip install ipywidgets # for ppo_safe.py Jupyter dashboard
 
 ## Running the Streamlit Apps
 ```bash
-cd cleanrl
 streamlit run cleanrl/hyperparameter_sandbox_demo.py
 streamlit run cleanrl/curriculum_wrapper.py
 streamlit run cleanrl/rl_exploration.py
